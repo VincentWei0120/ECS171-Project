@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>House Price Prediction</title>
+</head>
+<body>
+    <h1>House Price Prediction</h1>
+    <form method="POST" action="/predict">
+        <label for="housing_median_age">Housing Median Age:</label>
+        <input type="text" name="housing_median_age" id="housing_median_age" required><br>
+        
+        <label for="total_rooms">Total Rooms:</label>
+        <input type="text" name="total_rooms" id="total_rooms" required><br>
 
+        <label for="total_bedrooms">Total Bedrooms:</label>
+        <input type="text" name="total_bedrooms" id="total_bedrooms" required><br>
+
+        <label for="population">Population:</label>
+        <input type="text" name="population" id="population" required><br>
+
+        <label for="households">Households:</label>
+        <input type="text" name="households" id="households" required><br>
+
+        <label for="median_income">Median Income:</label>
+        <input type="text" name="median_income" id="median_income" required><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
