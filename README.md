@@ -1,5 +1,5 @@
 # ECS171-Project
-
+Please download annotated-ECS171project_SPR.pdf for detailed information and results.
 README for Running the Flask Application
 This guide will help you set up a virtual environment and run the Flask application for predicting house prices in California.
 
